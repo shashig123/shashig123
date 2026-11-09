@@ -96,6 +96,17 @@ Here are some ideas to get you started:
   <img src="https://img.shields.io/badge/Azure%20Policy%20%26%20RBAC-004088?style=for-the-badge&logo=azure-security&logoColor=white" alt="Azure Policy"/>
   <img src="https://img.shields.io/badge/Virtual%20Networks%20%26%20DNS-0077B6?style=for-the-badge&logo=wireshark&logoColor=white" alt="Networking"/>
 </p>
+<details align="left">
+  <summary><b>🔍 Click to view Production Topics in Azure Cloud & Governance</b></summary>
+  <br/>
+
+- 🌐 **Enterprise Landing Zones**: Hub-and-Spoke network topology, Azure Virtual WAN, ExpressRoute/VPN gateways, Private Endpoints & Private DNS.
+- 📜 **Azure Policy as Code**: Defining and assigning initiative definitions, automated remediation tasks, and CIS benchmark compliance.
+- 🔐 **Identity & Access Management (IAM)**: Role-Based Access Control (RBAC), Custom Roles, Privileged Identity Management (PIM), and Managed Identities.
+- 💰 **FinOps & Cost Governance**: Automated resource rightsizing, reservation planning, budget alerts, and tagging policy enforcement.
+
+</details>
+<br/>
 
 ### 🏗️ Infrastructure as Code (IaC) - Terraform Admin & Templates (Primary Skill #2)
 <p>
@@ -103,6 +114,18 @@ Here are some ideas to get you started:
   <img src="https://img.shields.io/badge/Terraform%20Modular%20Templates-844FBA?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform Templates"/>
   <img src="https://img.shields.io/badge/Terraform%20Cloud%20%2F%20Enterprise-5C4EE5?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform Enterprise"/>
 </p>
+<details align="left">
+  <summary><b>🔍 Click to view Production Topics in Terraform (Admin & Templates)</b></summary>
+  <br/>
+
+- 📦 **Enterprise Reusable Modules**: Authoring production-ready modular templates with strict DRY principles, standard inputs/outputs, and documentation.
+- 🔒 **State File Administration**: Remote backend in Azure Blob Storage with state locking (lease), encryption-at-rest, and state access RBAC.
+- 🏢 **Multi-Environment Orchestration**: Structuring workspaces, directory isolation, dynamic `.tfvars`, and environment parity (`dev`, `stage`, `prod`).
+- 🔄 **State Operations & Disaster Recovery**: Safe resource refactoring (`terraform state mv`), import workflows, state repair, and zero-drift verification.
+- 🛡️ **Automated IaC Security Gates**: Automated `terraform validate`, `tflint`, security scans with `tfsec` & `Checkov` in pull request triggers.
+
+</details>
+<br/>
 
 ### 🚢 Containers, Kubernetes & Helm 3 Packaging (Primary Skills #3, #4 & Packaging)
 <p>
@@ -112,6 +135,18 @@ Here are some ideas to get you started:
   <img src="https://img.shields.io/badge/Azure%20Kubernetes%20Service%20(AKS)-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="AKS"/>
   <img src="https://img.shields.io/badge/Ingress%20%26%20Service%20Mesh-4B32C3?style=for-the-badge&logo=traefikmesh&logoColor=white" alt="Ingress"/>
 </p>
+<details align="left">
+  <summary><b>🔍 Click to view Production Topics in Kubernetes, Docker & Helm 3 Packaging</b></summary>
+  <br/>
+
+- 📦 **Helm 3 Packaging**: Modular chart authoring, parameterizing `values.yaml` for multiple stages, chart dependency management, semantic versioning, and private registries (ACR).
+- ☸️ **AKS Cluster Hardening**: Managed identities, Azure CNI networking, system vs user node pool segregation, and cluster autoscaling.
+- 🛡️ **Pod Reliability & Security**: Resource limits & requests, Taints & Tolerations, Pod Disruption Budgets (PDB), and Network Policies.
+- 🚦 **Traffic & Ingress Routing**: Ingress Controller (Nginx/Traefik), TLS termination, automatic certificate issuance via cert-manager.
+- 🐳 **Docker Container Optimization**: High-performance multi-stage Docker builds, Alpine/distroless minimal base images, non-root user execution, and layer caching.
+
+</details>
+<br/>
 
 ### 🛡️ DevSecOps & Security Automation (Primary Skill #5)
 <p>
@@ -122,6 +157,17 @@ Here are some ideas to get you started:
   <img src="https://img.shields.io/badge/Azure%20Key%20Vault-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure Key Vault"/>
   <img src="https://img.shields.io/badge/Policy%20as%20Code%20(OPA)-000000?style=for-the-badge&logo=open-policy-agent&logoColor=white" alt="OPA"/>
 </p>
+<details align="left">
+  <summary><b>🔍 Click to view Production Topics in DevSecOps & Security</b></summary>
+  <br/>
+
+- 🔍 **Shift-Left SAST/DAST**: SonarQube automated code quality analysis and security quality gates blocking vulnerable PRs.
+- 🛡️ **Container Image Auditing**: Automated Trivy vulnerability scans in CI pipelines gating Docker images before ACR push.
+- 🔑 **Secrets Management**: Zero hardcoded credentials, automated secret rotation, Azure Key Vault integration with Managed Identities & HashiCorp Vault.
+- ⚖️ **Policy as Code (PaC)**: Gatekeeper / OPA rules enforcing container non-root execution, mandatory labels, and allowed registries.
+
+</details>
+<br/>
 
 ### 🔄 CI/CD & GitOps Delivery
 <p>
@@ -131,6 +177,17 @@ Here are some ideas to get you started:
   <img src="https://img.shields.io/badge/Azure%20Pipelines-0078D7?style=for-the-badge&logo=azure-pipelines&logoColor=white" alt="Azure Pipelines"/>
   <img src="https://img.shields.io/badge/Argo%20CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white" alt="ArgoCD"/>
 </p>
+<details align="left">
+  <summary><b>🔍 Click to view Production Topics in CI/CD & GitOps Delivery</b></summary>
+  <br/>
+
+- 🔄 **GitOps Delivery (ArgoCD)**: Declarative Git-driven synchronization, automated drift detection, self-healing sync policies, and multi-cluster deployment.
+- ⚡ **Azure DevOps Pipelines**: Modular multi-stage YAML pipelines, deployment jobs, environment gates, branch policies, and reusable pipeline templates.
+- 🚀 **GitHub Actions**: Custom composite actions, workflow triggers, matrix builds, artifact caching, and Azure OIDC authentication (secretless).
+- 🔁 **Zero-Downtime Release Strategies**: Blue/Green releases, Rolling updates, Canary traffic routing, and instant rollback triggers.
+
+</details>
+<br/>
 
 ### 📜 Scripting & Automation
 <p>
@@ -138,6 +195,16 @@ Here are some ideas to get you started:
   <img src="https://img.shields.io/badge/BASH-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="BASH"/>
   <img src="https://img.shields.io/badge/Python%20Scripting-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
 </p>
+<details align="left">
+  <summary><b>🔍 Click to view Production Topics in Scripting & Systems Automation</b></summary>
+  <br/>
+
+- ⚡ **PowerShell Enterprise Automation**: Custom PowerShell modules, Az CLI wrappers, automated resource provisioning, user access audits, and pipeline tasks.
+- 🐚 **BASH Scripting**: Linux server bootstrap scripts, container entrypoints, text processing (`awk`, `sed`, `jq`), and automated cron maintenance.
+- 🐍 **Python Automation**: Cloud API integrations, custom metric collectors, webhook handlers, and automated report generators.
+
+</details>
+<br/>
 
 ### 📊 Observability & Monitoring
 <p>
@@ -146,6 +213,17 @@ Here are some ideas to get you started:
   <img src="https://img.shields.io/badge/Azure%20Monitor-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure Monitor"/>
   <img src="https://img.shields.io/badge/Log%20Analytics-005B96?style=for-the-badge&logo=azure-pipelines&logoColor=white" alt="Log Analytics"/>
 </p>
+<details align="left">
+  <summary><b>🔍 Click to view Production Topics in Prometheus, Grafana & Monitoring</b></summary>
+  <br/>
+
+- 📈 **Kube-Prometheus-Stack**: Deployment & configuration of Prometheus Operator, Node Exporter, and kube-state-metrics on AKS.
+- ⚡ **PromQL Production Queries**: Custom alerts for CPU throttling, memory leaks, crashlooping pods, and network drop rates.
+- 🚨 **Alertmanager Rules**: Production routing trees, alert grouping, inhibition rules, and integrations with Slack/Teams.
+- 📊 **Custom Grafana Dashboards**: Real-time visualization of the **4 Golden Signals** (Latency, Traffic, Errors, Saturation), pod resource usage, and cluster capacity.
+- 🔍 **Azure Monitor & Log Analytics**: KQL (Kusto Query Language) queries for log parsing, container insights, and audit alerts.
+
+</details>
 
 </div>
 

@@ -74,7 +74,7 @@ Here are some ideas to get you started:
 - 🛡️ **DevSecOps Core**: Embedding Shift-Left security, automated vulnerability scanning (SAST/DAST/Container), secret management, and compliance-as-code across all CI/CD pipelines.
 - 🏗️ **IaC Mastery**: Terraform Enterprise Administrator & Modular Template Architect, orchestrating immutable, self-healing cloud ecosystems.
 - 🔄 **GitOps & Pipelines**: Production-grade Azure DevOps pipelines, GitHub Actions, and GitOps-driven delivery with zero downtime.
-- 📜 **Scripting Power**: Heavy automation with PowerShell, Bash, and Linux systems engineering.
+- 📜 **Scripting Power**: Heavy automation with PowerShell, Bash, and Python.
 - 💬 **Ask me about**: Azure Landing Zones, Terraform state locking, K8s cluster hardening, Docker container optimization, Helm 3 packaging, and GitOps workflows.
 - 📫 **How to reach me**: Open to high-impact Senior DevOps, DevSecOps, Platform Engineering, and Cloud Architecture roles.
 - ⚡ **Engineering Philosophy**: *"If a system requires manual intervention more than once, it belongs in code; if it runs in production, it must be impenetrable."*
@@ -102,8 +102,6 @@ Here are some ideas to get you started:
   <img src="https://img.shields.io/badge/Terraform%20Admin-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform Admin"/>
   <img src="https://img.shields.io/badge/Terraform%20Modular%20Templates-844FBA?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform Templates"/>
   <img src="https://img.shields.io/badge/Terraform%20Cloud%20%2F%20Enterprise-5C4EE5?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform Enterprise"/>
-  <img src="https://img.shields.io/badge/Terragrunt-231F20?style=for-the-badge&logo=terraform&logoColor=white" alt="Terragrunt"/>
-  <img src="https://img.shields.io/badge/ARM%20%2F%20Bicep-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Bicep"/>
 </p>
 
 ### 🚢 Containers, Kubernetes & Helm 3 Packaging (Primary Skills #3, #4 & Packaging)
@@ -134,11 +132,10 @@ Here are some ideas to get you started:
   <img src="https://img.shields.io/badge/Argo%20CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white" alt="ArgoCD"/>
 </p>
 
-### 📜 Scripting, Automation & Systems
+### 📜 Scripting & Automation
 <p>
   <img src="https://img.shields.io/badge/PowerShell%20Automation-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell"/>
-  <img src="https://img.shields.io/badge/GNU%20Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash"/>
-  <img src="https://img.shields.io/badge/Linux%20Administration-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
+  <img src="https://img.shields.io/badge/BASH-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="BASH"/>
   <img src="https://img.shields.io/badge/Python%20Scripting-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
 </p>
 
